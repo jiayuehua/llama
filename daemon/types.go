@@ -17,9 +17,9 @@ package daemon
 import (
 	"time"
 
-	"github.com/nelhage/llama/files"
-	"github.com/nelhage/llama/protocol"
-	"github.com/nelhage/llama/tracing"
+	"github.com/jiayuehua/llama/files"
+	"github.com/jiayuehua/llama/protocol"
+	"github.com/jiayuehua/llama/tracing"
 )
 
 type PingArgs struct{}

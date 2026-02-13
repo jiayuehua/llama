@@ -21,7 +21,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/nelhage/llama/tracing"
+	"github.com/jiayuehua/llama/tracing"
 )
 
 type Event struct {

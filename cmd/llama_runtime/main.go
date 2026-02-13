@@ -33,8 +33,8 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 	"github.com/aws/aws-sdk-go/aws/session"
 
-	"github.com/nelhage/llama/store"
-	"github.com/nelhage/llama/store/s3store"
+	"github.com/jiayuehua/llama/store"
+	"github.com/jiayuehua/llama/store/s3store"
 )
 
 const DiskCacheLimit = 100 * 1024 * 1024

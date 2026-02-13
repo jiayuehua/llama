@@ -29,12 +29,12 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/lambda"
 	"github.com/google/subcommands"
-	"github.com/nelhage/llama/cmd/internal/cli"
-	"github.com/nelhage/llama/files"
-	"github.com/nelhage/llama/llama"
-	"github.com/nelhage/llama/protocol"
-	protocol_files "github.com/nelhage/llama/protocol/files"
-	"github.com/nelhage/llama/store"
+	"github.com/jiayuehua/llama/cmd/internal/cli"
+	"github.com/jiayuehua/llama/files"
+	"github.com/jiayuehua/llama/llama"
+	"github.com/jiayuehua/llama/protocol"
+	protocol_files "github.com/jiayuehua/llama/protocol/files"
+	"github.com/jiayuehua/llama/store"
 )
 
 type XargsCommand struct {

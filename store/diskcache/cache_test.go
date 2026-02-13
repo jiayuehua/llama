@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/nelhage/llama/store/internal/storeutil"
+	"github.com/jiayuehua/llama/store/internal/storeutil"
 	"github.com/stretchr/testify/assert"
 )
 

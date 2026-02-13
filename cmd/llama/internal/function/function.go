@@ -27,7 +27,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/ecr"
 	"github.com/google/subcommands"
-	"github.com/nelhage/llama/cmd/internal/cli"
+	"github.com/jiayuehua/llama/cmd/internal/cli"
 )
 
 type UpdateFunctionCommand struct {

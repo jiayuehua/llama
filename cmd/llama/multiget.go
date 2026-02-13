@@ -25,8 +25,8 @@ import (
 	"strings"
 
 	"github.com/google/subcommands"
-	"github.com/nelhage/llama/cmd/internal/cli"
-	"github.com/nelhage/llama/store"
+	"github.com/jiayuehua/llama/cmd/internal/cli"
+	"github.com/jiayuehua/llama/store"
 )
 
 type MultigetCommand struct {
