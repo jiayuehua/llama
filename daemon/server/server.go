@@ -32,8 +32,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/lambda"
 	"github.com/gofrs/flock"
-	"github.com/nelhage/llama/daemon"
-	"github.com/nelhage/llama/store"
+	"github.com/jiayuehua/llama/daemon"
+	"github.com/jiayuehua/llama/store"
 	"golang.org/x/sync/semaphore"
 )
 

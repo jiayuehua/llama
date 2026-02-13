@@ -28,7 +28,7 @@ import (
 
 	"github.com/google/subcommands"
 	"github.com/klauspost/compress/zstd"
-	"github.com/nelhage/llama/tracing"
+	"github.com/jiayuehua/llama/tracing"
 )
 
 type TraceCommand struct {

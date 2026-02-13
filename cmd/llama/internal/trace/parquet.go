@@ -23,7 +23,7 @@ import (
 	goparquet "github.com/fraugster/parquet-go"
 	"github.com/fraugster/parquet-go/parquet"
 	"github.com/fraugster/parquet-go/parquetschema"
-	"github.com/nelhage/llama/tracing"
+	"github.com/jiayuehua/llama/tracing"
 )
 
 type fieldType int

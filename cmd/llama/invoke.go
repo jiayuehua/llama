@@ -26,10 +26,10 @@ import (
 	"text/template"
 
 	"github.com/google/subcommands"
-	"github.com/nelhage/llama/cmd/internal/cli"
-	"github.com/nelhage/llama/daemon"
-	"github.com/nelhage/llama/daemon/server"
-	"github.com/nelhage/llama/files"
+	"github.com/jiayuehua/llama/cmd/internal/cli"
+	"github.com/jiayuehua/llama/daemon"
+	"github.com/jiayuehua/llama/daemon/server"
+	"github.com/jiayuehua/llama/files"
 )
 
 type InvokeCommand struct {

@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nelhage/llama/tracing"
+	"github.com/jiayuehua/llama/tracing"
 )
 
 func stringify(v interface{}) string {

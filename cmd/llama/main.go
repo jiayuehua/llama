@@ -26,11 +26,11 @@ import (
 
 	"github.com/google/subcommands"
 	"github.com/klauspost/compress/zstd"
-	"github.com/nelhage/llama/cmd/internal/cli"
-	"github.com/nelhage/llama/cmd/llama/internal/bootstrap"
-	"github.com/nelhage/llama/cmd/llama/internal/function"
-	"github.com/nelhage/llama/cmd/llama/internal/trace"
-	"github.com/nelhage/llama/tracing"
+	"github.com/jiayuehua/llama/cmd/internal/cli"
+	"github.com/jiayuehua/llama/cmd/llama/internal/bootstrap"
+	"github.com/jiayuehua/llama/cmd/llama/internal/function"
+	"github.com/jiayuehua/llama/cmd/llama/internal/trace"
+	"github.com/jiayuehua/llama/tracing"
 )
 
 func main() {

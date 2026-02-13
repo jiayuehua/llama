@@ -17,7 +17,7 @@ package protocol
 import (
 	"time"
 
-	"github.com/nelhage/llama/tracing"
+	"github.com/jiayuehua/llama/tracing"
 )
 
 type InvocationSpec struct {

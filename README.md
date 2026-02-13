@@ -47,7 +47,7 @@ pronounced on smaller workstations.
 You'll need to install Llama from source. You can run
 
 ```
-go install github.com/nelhage/llama/cmd/...@latest
+go install github.com/jiayuehua/llama/cmd/...@latest
 ```
 
 or clone this repository and run
@@ -87,7 +87,7 @@ uses it to bootstrap all required resources. You can [read the
 template][template] to see what it's going to do.
 
 [cf]: https://aws.amazon.com/cloudformation/
-[template]: https://github.com/nelhage/llama/blob/master/cmd/llama/internal/bootstrap/template.json
+[template]: https://github.com/jiayuehua/llama/blob/master/cmd/llama/internal/bootstrap/template.json
 
 Once your AWS credentials are ready, run
 

@@ -32,10 +32,10 @@ import (
 	"time"
 
 	"github.com/golang/snappy"
-	"github.com/nelhage/llama/protocol"
-	"github.com/nelhage/llama/protocol/files"
-	"github.com/nelhage/llama/store"
-	"github.com/nelhage/llama/tracing"
+	"github.com/jiayuehua/llama/protocol"
+	"github.com/jiayuehua/llama/protocol/files"
+	"github.com/jiayuehua/llama/store"
+	"github.com/jiayuehua/llama/tracing"
 )
 
 type Runtime struct {

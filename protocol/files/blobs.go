@@ -23,8 +23,8 @@ import (
 	"os"
 	"unicode/utf8"
 
-	"github.com/nelhage/llama/protocol"
-	"github.com/nelhage/llama/store"
+	"github.com/jiayuehua/llama/protocol"
+	"github.com/jiayuehua/llama/store"
 )
 
 func AppendGet(reqs []store.GetRequest, b *protocol.Blob) []store.GetRequest {

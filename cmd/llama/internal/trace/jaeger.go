@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 
 	"github.com/jaegertracing/jaeger/model/json"
-	"github.com/nelhage/llama/tracing"
+	"github.com/jiayuehua/llama/tracing"
 )
 
 type jaegerFile struct {
