@@ -1,5 +1,5 @@
-FROM ghcr.io/nelhage/llama as llama
-FROM ubuntu:focal
+FROM ghcr.io/jiayuehua/llama as llama
+FROM ubuntu:noble
 RUN apt-get update && \
         apt-get -y install ca-certificates && \
         apt-get clean

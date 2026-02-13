@@ -1,5 +1,5 @@
-FROM ghcr.io/nelhage/llama as llama
-FROM ubuntu:focal
+FROM ghcr.io/jiayuehua/llama as llama
+FROM ubuntu:noble
 RUN apt-get update && \
   env DEBIAN_FRONTEND=noninteractive apt-get -y install build-essential ca-certificates git cmake curl && \
   apt-get clean

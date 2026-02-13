@@ -1,5 +1,5 @@
-FROM ghcr.io/nelhage/llama as llama
-FROM ubuntu:focal
+FROM ghcr.io/jiayuehua/llama as llama
+FROM ubuntu:noble
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get -y install \
         lsb-release wget software-properties-common valgrind zlib1g-dev
