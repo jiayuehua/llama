@@ -32,11 +32,11 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/klauspost/compress/zstd"
-	"github.com/jiayuehua/llama/protocol"
-	"github.com/jiayuehua/llama/store"
-	"github.com/jiayuehua/llama/store/diskcache"
-	"github.com/jiayuehua/llama/store/internal/storeutil"
-	"github.com/jiayuehua/llama/tracing"
+	"github.com/nelhage/llama/protocol"
+	"github.com/nelhage/llama/store"
+	"github.com/nelhage/llama/store/diskcache"
+	"github.com/nelhage/llama/store/internal/storeutil"
+	"github.com/nelhage/llama/tracing"
 	"golang.org/x/sync/errgroup"
 )
 

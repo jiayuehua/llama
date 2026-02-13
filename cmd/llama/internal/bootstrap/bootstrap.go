@@ -35,7 +35,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/google/subcommands"
-	"github.com/jiayuehua/llama/cmd/internal/cli"
+	"github.com/nelhage/llama/cmd/internal/cli"
 )
 
 func stackRolledBack(s *cloudformation.Stack) bool {
@@ -103,7 +103,7 @@ func (c *BootstrapCommand) Execute(ctx context.Context, flag *flag.FlagSet, _ ..
 	ident, err := stsSvc.GetCallerIdentity(&sts.GetCallerIdentityInput{})
 	if err != nil {
 		log.Printf("Unable to get AWS account identity information: %s", err.Error())
-		log.Printf("Do you have AWS credentials configured? https://github.com/jiayuehua/llama#set-up-your-aws-credentials")
+		log.Printf("Do you have AWS credentials configured? https://github.com/nelhage/llama#set-up-your-aws-credentials")
 		return subcommands.ExitFailure
 	}
 

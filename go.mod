@@ -1,4 +1,4 @@
-module github.com/jiayuehua/llama
+module github.com/nelhage/llama
 
 go 1.14
 

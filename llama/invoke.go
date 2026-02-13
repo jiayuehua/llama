@@ -24,10 +24,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/lambda"
 	"github.com/golang/snappy"
-	"github.com/jiayuehua/llama/protocol"
-	"github.com/jiayuehua/llama/protocol/files"
-	"github.com/jiayuehua/llama/store"
-	"github.com/jiayuehua/llama/tracing"
+	"github.com/nelhage/llama/protocol"
+	"github.com/nelhage/llama/protocol/files"
+	"github.com/nelhage/llama/store"
+	"github.com/nelhage/llama/tracing"
 )
 
 type InvokeArgs struct {

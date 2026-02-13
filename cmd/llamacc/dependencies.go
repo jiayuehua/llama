@@ -22,8 +22,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/jiayuehua/llama/daemon"
-	"github.com/jiayuehua/llama/tracing"
+	"github.com/nelhage/llama/daemon"
+	"github.com/nelhage/llama/tracing"
 )
 
 func detectDependencies(ctx context.Context, client *daemon.Client, cfg *Config, comp *Compilation) ([]string, error) {

@@ -23,7 +23,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/lambda"
-	"github.com/jiayuehua/llama/cmd/internal/cli"
+	"github.com/nelhage/llama/cmd/internal/cli"
 )
 
 const (

@@ -25,10 +25,10 @@ import (
 	"strings"
 	"testing"
 
-	fs "github.com/jiayuehua/llama/files"
-	"github.com/jiayuehua/llama/protocol"
-	"github.com/jiayuehua/llama/protocol/files"
-	"github.com/jiayuehua/llama/store"
+	fs "github.com/nelhage/llama/files"
+	"github.com/nelhage/llama/protocol"
+	"github.com/nelhage/llama/protocol/files"
+	"github.com/nelhage/llama/store"
 	"github.com/stretchr/testify/assert"
 )
 

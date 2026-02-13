@@ -23,8 +23,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/mitchellh/go-homedir"
-	"github.com/jiayuehua/llama/store"
-	"github.com/jiayuehua/llama/store/s3store"
+	"github.com/nelhage/llama/store"
+	"github.com/nelhage/llama/store/s3store"
 )
 
 var initEnv sync.Once

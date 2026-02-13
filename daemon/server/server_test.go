@@ -24,8 +24,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/jiayuehua/llama/daemon"
-	"github.com/jiayuehua/llama/daemon/server"
+	"github.com/nelhage/llama/daemon"
+	"github.com/nelhage/llama/daemon/server"
 )
 
 func TestDialWithAutostart(t *testing.T) {

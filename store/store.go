@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/jiayuehua/llama/protocol"
+	"github.com/nelhage/llama/protocol"
 )
 
 type GetRequest struct {

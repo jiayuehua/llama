@@ -22,8 +22,8 @@ import (
 	"os"
 
 	"github.com/google/subcommands"
-	"github.com/jiayuehua/llama/cmd/internal/cli"
-	"github.com/jiayuehua/llama/store"
+	"github.com/nelhage/llama/cmd/internal/cli"
+	"github.com/nelhage/llama/store"
 )
 
 type StoreCommand struct {

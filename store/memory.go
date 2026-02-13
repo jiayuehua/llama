@@ -18,7 +18,7 @@ import (
 	"context"
 	"encoding/hex"
 
-	"github.com/jiayuehua/llama/protocol"
+	"github.com/nelhage/llama/protocol"
 	"golang.org/x/crypto/blake2b"
 )
 

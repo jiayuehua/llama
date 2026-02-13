@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	"github.com/google/subcommands"
-	"github.com/jiayuehua/llama/cmd/internal/cli"
+	"github.com/nelhage/llama/cmd/internal/cli"
 )
 
 type ConfigCommand struct {

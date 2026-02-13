@@ -26,12 +26,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/jiayuehua/llama/daemon"
-	"github.com/jiayuehua/llama/llama"
-	"github.com/jiayuehua/llama/protocol"
-	"github.com/jiayuehua/llama/protocol/files"
-	"github.com/jiayuehua/llama/store"
-	"github.com/jiayuehua/llama/tracing"
+	"github.com/nelhage/llama/daemon"
+	"github.com/nelhage/llama/llama"
+	"github.com/nelhage/llama/protocol"
+	"github.com/nelhage/llama/protocol/files"
+	"github.com/nelhage/llama/store"
+	"github.com/nelhage/llama/tracing"
 )
 
 func (d *Daemon) Ping(in daemon.PingArgs, reply *daemon.PingReply) error {
