@@ -44,6 +44,8 @@ jobs:
         with:
           context: images/gcc-focal/
           push: true
+          platforms: linux/amd64
+          provenance: false
           tags: |
             ghcr.io/jiayuehua/llama-gcc:15.2.0
             ghcr.io/jiayuehua/llama-gcc:latest

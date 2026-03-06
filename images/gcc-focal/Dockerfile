@@ -1,6 +1,6 @@
 FROM ghcr.io/nelhage/llama AS llama
 
-FROM ubuntu:noble
+FROM public.ecr.aws/ubuntu/ubuntu:24.04
 RUN apt-get update && \
     apt-get -y install --no-install-recommends software-properties-common ca-certificates && \
     add-apt-repository ppa:ubuntu-toolchain-r/test && \
