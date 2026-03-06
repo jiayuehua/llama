@@ -24,8 +24,11 @@ jobs:
       - name: Check license headers
         run: |
           ./scripts/dev/check-license
-  build-image:
+
+  build-gcc-image:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
     steps:
       - uses: actions/checkout@v2
       - name: Login to GitHub Container Registry
@@ -34,14 +37,15 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build docker image
-        run: |
-          docker build -t "ghcr.io/nelhage/llama:$GITHUB_SHA" .
-      - name: Push docker image
-        run: |
-          docker push "ghcr.io/nelhage/llama:$GITHUB_SHA"
-      - name: Tag "latest" docker container
-        if: ${{github.event_name == 'push' && github.ref == 'refs/heads/main'}}
-        run: |
-          docker tag "ghcr.io/nelhage/llama:$GITHUB_SHA" "ghcr.io/nelhage/llama:latest"
-          docker push "ghcr.io/nelhage/llama:latest"
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Build and push GCC 15.2.0 image
+        uses: docker/build-push-action@v5
+        with:
+          context: images/gcc-focal/
+          push: true
+          tags: |
+            ghcr.io/jiayuehua/llama-gcc:15.2.0
+            ghcr.io/jiayuehua/llama-gcc:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
